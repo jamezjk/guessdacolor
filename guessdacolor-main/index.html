@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./app.js"></script>
+    <title>Guess da Color By jamezjk</title>
+</head>
+
+<body>
+    <div class="contents">
+        <h3>Vanilla Javascript</h3>
+        <h1>RGB Color Guesser</h1>
+        
+        <div style="background-color: yellow;">
+            <div class="lives-bar">
+                <div id="lives">❤️❤️❤️</div>
+                <div id="space">
+                    <h2 id="q-box"></h2>
+                </div>
+                <div id="points">
+                    <p>Score : 0</p>
+                </div>
+            </div>
+        </div>
+        <p id="hi-score">High Score : 0</p>
+        
+        <div class="color-box-container"></div><br>
+        <h2 id="win-box">Guess the right color</h2>
+        <h4 id="mode-box"></h4>
+        <div class="op-bar">
+            <button onclick="easyMode()">EASY</button>
+            <button onclick="hardMode()">HARD</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
