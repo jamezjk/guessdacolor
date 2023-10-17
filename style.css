@@ -1,0 +1,162 @@
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./Montserrat-Regular.ttf);
+ }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    background-color: #3b3b3b;
+}
+
+.contents {
+    height: 900px;
+    margin: 30px auto;
+}
+
+h1,
+h2,
+h4,
+h3 {
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+}
+
+h1 {
+    background-color: #3b3b3b;
+    margin: 10px;
+    color: yellow;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 5px;
+    color: #fff;
+}
+
+h3 {
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin: auto;
+    background-color: yellow;
+    width: 160px;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 25px;
+
+
+}
+
+.op-bar {
+    width: max-content;
+    display: flex;
+    margin: auto;
+}
+
+.color-box-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 222px;
+    margin: auto;
+    background-color: #3b3b3b;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.color-box {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+
+    /*box-shadow: 0px 0px 5px 0px white;*/
+}
+
+button {
+    padding: 5px 10px;
+    margin: 10px 10px;
+    color: #323330;
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 1px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+
+.lives-bar {
+    display: flex;
+    width: 50%;
+    max-width: 450px;
+    /* 80 */
+    margin: 0 auto;
+
+}
+
+#space {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#lives {
+    margin: auto 0;
+    width: 70px;
+}
+
+#points {
+    margin: auto 0;
+    font-weight: 600;
+    width: 70px;
+}
+
+#hi-score {
+    font-style: italic;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+#q-box {
+    color: black;
+}
+#mode-box{
+    color: lightyellow;
+}
+
+@media screen and (max-width: 400px) {
+
+    .lives-bar {
+        display: flex;
+        width: 90%;
+        /* 80 */
+        margin: 0 auto;
+
+    }
+
+    #q-box {
+        font-size: 18px;
+    }
+
+}
+
+
+/*
+#q-box{
+    margin: 20px auto;
+    position: absolute;
+}
+*/
